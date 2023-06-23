@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontend/styles/main.css">
+    <link rel="stylesheet" href="../frontend/libraries/xzoom/xzoom.css">
+    
+    <title>Detail</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"><img src="../frontend/images/bikestore.png" alt="">BIKESTORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/detail.html">Products</a>
+            </li>
+          </ul>
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link mt-2" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <img src="../frontend/images/user.png" alt="icon user" class="rounded-circle mr-2 profile-picture">
+                Hi, Jojo  
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                <img src="../frontend/images/cart.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-content page-details">
+    <section class="bike-breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  Product Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-md-8">
+            <div class="xzoom-container">
+              <img 
+                src="../frontend/images/product-details-1.png" 
+                class="xzoom w-100 main-image d-block" 
+                id="xzoom-default"
+                xoriginal="../frontend/images/product-details-1.png">
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="xzoom-thumbs">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100" xpreview="../frontend/images/product-details-1.png">
+              </a>
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-2.png">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-1.png">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-2.png">
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-heading mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>About the bike</h1>
+            <p>Minimal techno is a minimalist subgenre of techno music, it is characterized by a stripped down aesthetic that exploits the use of repetition and understated development Minimal techno is thought to have been originally developed in the marly 1900s by Detroit bast producers Robert Hood and Daniel Bell <br>
+              Such trends saw the demise of the infused tecting that typified the original Detro nd Robert Hood has noted that he and Daniel Bell doth realized something was missing from telching in the post- rove era <br>
+              Design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The national agency for design enabling Singapore to use design for economic growth and to make lives better</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bordered p-5">
+              <h5 class="booking-title">Booking Bike</h5>
+              <h2 class="booking-price">Rp100.000.000</h2>
+              <p class="mb-0 subtitle">color</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Black">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      <img src="../frontend/images/arrow.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="mb-0 subtitle">Size</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text minus">
+                      -
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="M">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      <img src="../frontend/images/add.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="../pages/bookingpage.html" class="btn btn-md btn-dark btn-block mt-5 btn-booking">Continue to Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Akhir Page Content -->
+
+ <!-- Popular Product -->
+ <section class="popular-products">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex section-title">
+          <h4>Popular</h4>
+          <h4>&nbsp;Products</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-1.png" class="img-fluid">
+          </div>
+          <div class="products-text mb-2">
+            SPEACH STEALTH
+          </div>
+          <div class="products-price">
+            $333,33
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-2.png" class="img-fluid">
+          </div>
+          <div class="products-text mb-2">
+            SPECTRAL MOUNTAIN
+          </div>
+          <div class="products-price">
+            $350
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-3.png" class="img-fluid" style="padding-left: 2rem;">
+          </div>
+          <div class="products-text mb-2">
+            LIXADA ULTRA
+          </div>
+          <div class="products-price">
+            $50
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-4.png" class="img-fluid">
+          </div>
+          <div class="products-text mb-2">
+            NORUS NEXX 3.0
+          </div>
+          <div class="products-price">
+            $250
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-5.png" class="img-fluid ml-3">
+          </div>
+          <div class="products-text mb-2">
+            XZONE ERON
+          </div>
+          <div class="products-price">
+            $30
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-6.png" class="img-fluid" style="padding-left: 2rem;">
+          </div>
+          <div class="products-text mb-2">
+            SCHWALBE 700x35 C
+          </div>
+          <div class="products-price">
+            $1,100
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-7.png" class="img-fluid" style="padding-left: 3.3rem;">
+          </div>
+          <div class="products-text mb-2">
+            XZONE JERSEY
+          </div>
+          <div class="products-price">
+            $180
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="component-products d-block">
+          <div class="products-img mb-4">
+            <img src="../frontend/images/product-8.png" class="img-fluid" style="padding-left: 4rem;">
+          </div>
+          <div class="products-text mb-2">
+            POLYGON PRO LONG
+          </div>
+          <div class="products-price">
+            $100
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Tutup Popular Product -->
+
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="testimonial-hero">
+              <img src="../frontend/images/testimoni-2.png" class="testimonial-img">
+              <img src="../frontend/images/Testimonial-frame.png" class="testimonial-frame">
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-7 my-auto">
+            <div class="stars">
+              <img src="../frontend/images/Stars.png">
+            </div>
+            <h2 class="testimonial-text">BIKESTORE "GOES TO <br> CAMPUS UIR ...</h2>
+            <p class="testimonial-name">Defri, Programmer</p>
+            <a href="#" class="btn btn-testimonial">Read Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tutup Testimonial -->
+
+    <!-- Footer -->
+    <section>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h2>Bikestore</h2>
+              <a href="https://instagram.com/defri.ariyadi?igshid=MzNlNGNkZWQ4Mg==">
+                <img src="../frontend/images/ig.png">
+              </a>
+              <a href="#">
+                <img src="../frontend/images/fb.png">
+              </a>
+              <a href="#">
+                <img src="../frontend/images/yt.png">
+              </a>
+            </div>
+            <div class="col-6 text-right">
+              <h5>Address</h5>
+              <p>Jl. Kaharuddin Nasution No.01, <br>
+                Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>
+                0812-1234-578</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-small my-auto">
+        <div class="row">
+          <div class="col-12">
+            <p>2022 Copyright <a href="../index.html">Bikestore.</a> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tutup Footer -->
+  
+  
+
+
+
+  <script src="../frontend/libraries/jquery-3.6.0.min.js"></script>
+  <script src="../frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="../frontend/libraries/xzoom/xzoom.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".xzoom, .xzoom-gallery").xzoom({
+        zoomWidth: 450,
+        title: false,
+        tint: "#333",
+        Xoffset: 20,
+      });
+    });
+  </script>
+</body>
+</html>

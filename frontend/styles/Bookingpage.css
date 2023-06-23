@@ -1,0 +1,195 @@
+/* Header */
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+
+    color: #000000;
+}
+.navbar-brand:hover{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+
+    color: #000000;
+}
+/* Tutup Header */
+
+/* BO */
+.booking-icon img {
+    margin-top: -20px;
+}
+
+.head h5{
+    margin-top: -60px;
+    color: #0B0129;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 600;
+} 
+
+.head h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #7C7C7C;
+}
+
+.garis_vertical {
+    margin-top: -460px;
+    border: 2px #CACACA solid;
+    height: 500px;
+    width: 0px;
+}
+
+.product-booking img{
+    width: 500px;
+    height: 300px;
+    left: 100px;
+    top: 613px;
+    margin-top: 160px;
+    margin-left: -8px;
+}
+
+.product-name h5 {
+    margin-top: 50px;
+    margin-left: 22px;
+    left: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #000000;
+}
+
+.product-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    margin-left: 180px;
+
+    color: #000000;
+}
+
+.form-group {
+    width: 423px;
+    height: 97px;
+    margin-left: 740px;
+    top: 180px;
+    margin-top: -430px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+}
+
+.form-group label{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+
+
+    color: #000000;
+}
+
+.form-group input{
+    background: #EDEDED;
+
+}
+
+.btn-warning{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 72px;
+
+    width: 350px;
+    height: 40px;
+
+    background: #FFBD37;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cancel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+
+    width: 350px;
+    height: 40px;
+    background: #E1E1E1;
+}
+
+/* Tutup BO */
+
+/* footer */
+.footer {
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.footer h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #9F9C9C;
+}
+
+.footer-small {
+    background-color: #171938;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    color: #ffffff;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+
+    text-decoration: none;
+
+    color: #FCBB3A;;
+}
+/* Tutup footer */
